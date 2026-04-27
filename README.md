@@ -65,7 +65,7 @@ A project focused on hexahedral mesh generation and simulation-oriented workflow
 
 ## Contact
 
-I am always open to thoughtful conversations about simulation, mesh generation, and computational engineering.
+I am always open to thoughtful conversations about simulation, scientific machine learning, and computational engineering.
 
 <p>
   <a href="https://github.com/EngineerEricXie">
