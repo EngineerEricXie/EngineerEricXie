@@ -50,10 +50,6 @@ Building agent-based tools that help automate simulation setup, execution, analy
 
 [NeuronTransportGALDS](https://github.com/CMU-CBML/NeuronTransportGALDS) contains the official code for GALDS, a graph-autoencoder-based latent dynamics surrogate model for predicting neurite material transport.
 
-### Physics-Informed Neural Modeling
-
-[NeuronTransportPGNN](https://github.com/CMU-CBML/NeuronTransportPGNN) explores an isogeometric analysis based physics-informed graph neural network for material transport in complex neuron geometries.
-
 I have also worked on PINN-related topics and physics-informed learning for simulation problems.
 
 ## Tech Stack
