@@ -13,6 +13,9 @@
   <a href="mailto:tsungyeh@andrew.cmu.edu">
     <img src="https://img.shields.io/badge/Email-tsungyeh%40andrew.cmu.edu-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
+  <a href="https://scholar.google.com.tw/citations?user=Wu0GDnwAAAAJ&hl=zh-TW">
+    <img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar" />
+  </a>
   <img src="https://img.shields.io/badge/CMU-PhD%20Student-C41230?style=flat-square" alt="CMU PhD Student" />
   <img src="https://img.shields.io/badge/Research-SciML%20%7C%20AI4Sci-2F80ED?style=flat-square" alt="Research" />
 </p>
@@ -52,6 +55,16 @@ Building agent-based tools that help automate simulation setup, execution, analy
 
 I have also worked on PINN-related topics and physics-informed learning for simulation problems.
 
+## Selected Publications
+
+- **GALDS: A Graph-Autoencoder-based Latent Dynamics Surrogate model to predict neurite material transport**  
+  Tsung Yeh Hsieh, Yongjie Jessica Zhang.  
+  [Code](https://github.com/CMU-CBML/NeuronTransportGALDS) · [arXiv](https://arxiv.org/abs/2507.10871) · [Google Scholar](https://scholar.google.com.tw/citations?user=Wu0GDnwAAAAJ&hl=zh-TW)
+
+- **A multiscale stabilized physics informed neural networks with weakly imposed boundary conditions transfer learning method for modeling advection dominated flow**  
+  Tsung Yeh Hsieh, Tsung-Hui Huang. *Engineering with Computers*, 2024.  
+  [DOI](https://doi.org/10.1007/s00366-024-01981-5) · [Google Scholar](https://scholar.google.com.tw/citations?user=Wu0GDnwAAAAJ&hl=zh-TW)
+
 ## Tech Stack
 
 <p>
@@ -83,6 +96,9 @@ I am always open to thoughtful conversations about simulation, scientific machin
   </a>
   <a href="https://github.com/EngineerEricXie">
     <img src="https://img.shields.io/badge/GitHub-EngineerEricXie-181717?style=flat-square&logo=github" alt="GitHub" />
+  </a>
+  <a href="https://scholar.google.com.tw/citations?user=Wu0GDnwAAAAJ&hl=zh-TW">
+    <img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar" />
   </a>
   <a href="https://www.meche.engineering.cmu.edu/faculty/zhang-computational-bio-modeling-lab.html">
     <img src="https://img.shields.io/badge/Lab-CMU%20CBML-C41230?style=flat-square" alt="CMU CBML" />
