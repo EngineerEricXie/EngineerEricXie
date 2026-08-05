@@ -1,9 +1,11 @@
 <h1 align="center">Hi, I'm Eric</h1>
 
 <p align="center">
-  PhD student at Carnegie Mellon University working on simulation, SciML, AI for Science, FEM, and machine learning.
+  PhD student at Carnegie Mellon University building fast, reliable computational methods for scientific and engineering simulation.
   <br />
-  Currently in the <a href="https://www.meche.engineering.cmu.edu/faculty/zhang-computational-bio-modeling-lab.html">Computational Bio-Modeling Lab</a> advised by Prof. Yongjie Jessica Zhang.
+  My work spans isogeometric analysis (IGA), finite element methods, scientific machine learning, AI for Science, and biomedical simulation.
+  <br />
+  I am a member of the <a href="https://www.meche.engineering.cmu.edu/faculty/zhang-computational-bio-modeling-lab.html">Computational Bio-Modeling Lab</a>, advised by Prof. Yongjie Jessica Zhang.
 </p>
 
 <p align="center">
@@ -17,43 +19,58 @@
     <img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar" />
   </a>
   <img src="https://img.shields.io/badge/CMU-PhD%20Student-C41230?style=flat-square" alt="CMU PhD Student" />
-  <img src="https://img.shields.io/badge/Research-SciML%20%7C%20AI4Sci-2F80ED?style=flat-square" alt="Research" />
+  <img src="https://img.shields.io/badge/Research-IGA%20%7C%20SciML%20%7C%20AI4Sci-2F80ED?style=flat-square" alt="Research" />
 </p>
 
 ---
 
 ## About Me
 
-I am a second-year PhD student at Carnegie Mellon University in Prof. Yongjie Jessica Zhang's Computational Bio-Modeling Lab. My research interests sit at the intersection of scientific computing, physics-based simulation, and machine learning.
+I am a PhD student at Carnegie Mellon University working at the intersection of scientific computing, physics-based simulation, and machine learning. I develop computational methods and research software that make simulation pipelines faster, more reliable, and easier to use for real scientific and engineering problems.
 
-I care about building computational methods that make simulation pipelines faster, more reliable, and easier to use for real scientific and engineering problems.
+My current interests include:
 
-- Research areas: simulation, scientific machine learning, AI for Science, FEM, and ML
-- Current focus: learning-enhanced simulation and automated simulation workflows
-- Application interests: cardiovascular flow, biomedical simulation, and computational engineering
-- Lab: [Computational Bio-Modeling Lab, CMU](https://www.meche.engineering.cmu.edu/faculty/zhang-computational-bio-modeling-lab.html)
+- Isogeometric analysis, finite element methods, and high-performance PDE solvers
+- Scientific machine learning and surrogate modeling
+- GPU acceleration and distributed-memory parallel computing
+- Biomedical transport, cardiovascular flow, and complex branching geometries
+- Agentic workflows for simulation setup, execution, analysis, and iteration
 
-## Current Projects
+## Featured Projects
+
+### [TubularFlowIGA](https://github.com/EngineerEricXie/TubularFlowIGA)
+
+A C++ isogeometric-analysis pipeline for stabilized steady Navier–Stokes flow and transient two-field transport in tubular and branching geometries. It includes dependency-free control-mesh generation, Bézier extraction, an MPI/PETSc CPU backend, and a single-GPU CUDA backend.
+
+On a corrected 35,949-node neuron case, one NVIDIA V100 completed the coupled Navier–Stokes and 300-step transport computation in **279.40 s**, compared with **563.68 s** on 16 CPU ranks—a measured **2.02× speedup**. On a 4,221-node cylinder, the optimized CPU implementation's first nonlinear update was about **16.6× faster** and used **77.5% less memory** than the legacy solver; this second comparison is historical first-update evidence, not a complete converged solver-to-solver baseline.
+
+[Repository](https://github.com/EngineerEricXie/TubularFlowIGA) · [Benchmark details](https://github.com/EngineerEricXie/TubularFlowIGA/blob/main/docs/BENCHMARKS.md)
+
+### [NeuronTransportIGA](https://github.com/EngineerEricXie/NeuronTransportIGA)
+
+An isogeometric-analysis workflow for material transport simulation in complex neuron geometries. The pipeline covers neuron-skeleton smoothing, hexahedral control-mesh generation, truncated hierarchical tricubic splines, Bézier extraction, METIS partitioning, and MPI-parallel Navier–Stokes and transport solvers.
+
+[Repository](https://github.com/EngineerEricXie/NeuronTransportIGA)
+
+### [NeuronTransportGALDS](https://github.com/CMU-CBML/NeuronTransportGALDS)
+
+Official implementation of GALDS, a graph-autoencoder-based latent dynamics surrogate model for predicting neurite material transport.
+
+[Repository](https://github.com/CMU-CBML/NeuronTransportGALDS) · [arXiv](https://arxiv.org/abs/2507.10871)
+
+## Current Research
+
+### High-Performance IGA and Simulation
+
+Developing CPU- and GPU-accelerated IGA workflows for flow and transport in tubular, branching, and neuron geometries, with an emphasis on numerical validation, scalable preprocessing, and reproducible performance evidence.
 
 ### Scientific Machine Learning
 
-Developing and exploring SciML methods that combine physical structure, numerical simulation, and data-driven models.
-
-### Simulation for Cardiovascular Flow
-
-Working on simulation-centered workflows for cardiovascular flow problems, with interest in computational efficiency, model reliability, and biomedical relevance.
+Exploring learning-enhanced simulation methods that combine physical structure, numerical models, graph representations, and data-driven dynamics.
 
 ### Agents for Simulation Pipelines
 
-Building agent-based tools that help automate simulation setup, execution, analysis, and iteration.
-
-## Previous Work
-
-### GALDS
-
-[NeuronTransportGALDS](https://github.com/CMU-CBML/NeuronTransportGALDS) contains the official code for GALDS, a graph-autoencoder-based latent dynamics surrogate model for predicting neurite material transport.
-
-I have also worked on PINN-related topics and physics-informed learning for simulation problems.
+Building agent-based tools to help automate simulation setup, execution, validation, analysis, and iteration.
 
 ## Selected Publications
 
@@ -68,27 +85,20 @@ I have also worked on PINN-related topics and physics-informed learning for simu
 ## Tech Stack
 
 <p>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+  <img src="https://img.shields.io/badge/MPI-Parallel%20Computing-6C4AB6?style=flat-square" alt="MPI" />
+  <img src="https://img.shields.io/badge/PETSc-Scientific%20Computing-2F80ED?style=flat-square" alt="PETSc" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/JAX-0F9D58?style=flat-square&logo=google&logoColor=white" alt="JAX" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/FEM-Scientific%20Computing-2F80ED?style=flat-square" alt="FEM" />
-  <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
 </p>
 
-## Research Interests
-
-- Scientific machine learning and AI for Science
-- Finite element methods and physics-based simulation
-- Machine learning for PDEs and dynamical systems
-- Biomedical and cardiovascular flow simulation
-- Surrogate modeling and reduced-order modeling
-- Agentic workflows for scientific computing
-
 ## Contact
 
-I am always open to thoughtful conversations about simulation, scientific machine learning, and computational engineering.
+I am always open to thoughtful conversations and collaborations around scientific computing, IGA, scientific machine learning, and computational engineering.
 
 <p>
   <a href="mailto:tsungyeh@andrew.cmu.edu">
@@ -108,5 +118,5 @@ I am always open to thoughtful conversations about simulation, scientific machin
 ---
 
 <p align="center">
-  <i>Building learning-enhanced simulation tools for science and engineering.</i>
+  <i>Building accelerated, learning-enhanced simulation tools for science and engineering.</i>
 </p>
