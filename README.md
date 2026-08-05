@@ -60,6 +60,10 @@ Building agent-based tools to help automate simulation setup, execution, validat
 
 ## Selected Publications
 
+- **Predicting Macroscopic Axon Topology from Microscopic Kinematics: An Interactive Tracking and Random Walk Pipeline for Substrate-Dependent Cortical Neurospheres**  
+  Chunghwan Kim, Myungbo Kim, Hanlin Cao, **Tsung Yeh Hsieh**, Yongjie Jessica Zhang, Tzahi Cohen-Karni, Victoria Webster-Wood. *bioRxiv*, 2026.  
+  [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.07.30.741748v1) · [DOI](https://doi.org/10.64898/2026.07.30.741748)
+
 - **GALDS: A Graph-Autoencoder-based Latent Dynamics Surrogate model to predict neurite material transport**  
   Tsung Yeh Hsieh, Yongjie Jessica Zhang.  
   [Code](https://github.com/CMU-CBML/NeuronTransportGALDS) · [arXiv](https://arxiv.org/abs/2507.10871) · [Google Scholar](https://scholar.google.com.tw/citations?user=Wu0GDnwAAAAJ&hl=zh-TW)
