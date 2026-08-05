@@ -8,20 +8,6 @@
   I am a member of the <a href="https://www.meche.engineering.cmu.edu/faculty/zhang-computational-bio-modeling-lab.html">Computational Bio-Modeling Lab</a>, advised by Prof. Yongjie Jessica Zhang.
 </p>
 
-<p align="center">
-  <a href="https://github.com/EngineerEricXie">
-    <img src="https://img.shields.io/badge/GitHub-EngineerEricXie-181717?style=flat-square&logo=github" alt="GitHub" />
-  </a>
-  <a href="mailto:tsungyeh@andrew.cmu.edu">
-    <img src="https://img.shields.io/badge/Email-tsungyeh%40andrew.cmu.edu-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://scholar.google.com.tw/citations?user=Wu0GDnwAAAAJ&hl=zh-TW">
-    <img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar" />
-  </a>
-  <img src="https://img.shields.io/badge/CMU-PhD%20Student-C41230?style=flat-square" alt="CMU PhD Student" />
-  <img src="https://img.shields.io/badge/Research-IGA%20%7C%20SciML%20%7C%20AI4Sci-2F80ED?style=flat-square" alt="Research" />
-</p>
-
 ---
 
 ## About Me
