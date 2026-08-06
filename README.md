@@ -28,7 +28,7 @@ My current interests include:
 
 A C++ isogeometric-analysis pipeline for stabilized steady Navier–Stokes flow and transient two-field transport in tubular and branching geometries. It includes dependency-free control-mesh generation, Bézier extraction, an MPI/PETSc CPU backend, and a single-GPU CUDA backend.
 
-On a corrected 35,949-node neuron case, one NVIDIA V100 completed the coupled Navier–Stokes and 300-step transport computation in **279.40 s**, compared with **563.68 s** on 16 CPU ranks—a measured **2.02× speedup**. On a 4,221-node cylinder, the optimized CPU implementation's first nonlinear update was about **16.6× faster** and used **77.5% less memory** than the legacy solver; this second comparison is historical first-update evidence, not a complete converged solver-to-solver baseline.
+On a corrected 35,949-node neuron case, one NVIDIA V100 achieved a measured **2.02× speedup** over 16 CPU ranks for the coupled Navier–Stokes and 300-step transport computation. On a 4,221-node cylinder, the optimized CPU implementation's first nonlinear update was about **16.6× faster** and used **77.5% less memory** than the legacy solver; this second comparison is historical first-update evidence, not a complete converged solver-to-solver baseline.
 
 [Repository](https://github.com/EngineerEricXie/TubularFlowIGA) · [Benchmark details](https://github.com/EngineerEricXie/TubularFlowIGA/blob/main/docs/BENCHMARKS.md)
 
