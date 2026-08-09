@@ -33,7 +33,7 @@ A graph-autoencoder and Neural ODE surrogate model for predicting material trans
 
 A C++ CPU/GPU isogeometric-analysis pipeline for flow and transport in tubular and branching geometries.
 
-**Results:** reported benchmarks show **up to 16.6× faster computation**, **77.5% less memory use**, and a **2.02× GPU speedup**.
+**Results:** compared with the [legacy NeuronTransportIGA baseline](https://github.com/EngineerEricXie/NeuronTransportIGA), the optimized CPU path achieved **up to 16.6× faster computation** and **77.5% less memory use**; the CUDA backend delivered a **2.02× speedup over the optimized CPU solver**.
 
 [Repository](https://github.com/EngineerEricXie/TubularFlowIGA) · [Benchmarks](https://github.com/EngineerEricXie/TubularFlowIGA/blob/main/docs/BENCHMARKS.md)
 
