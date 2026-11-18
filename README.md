@@ -43,7 +43,7 @@ A C++ CPU/GPU isogeometric-analysis pipeline for flow and transport in tubular a
 
 *Reported runtimes are case- and hardware-specific; see the benchmark documentation for scope and validation context.*
 
-[Repository](https://github.com/EngineerEricXie/TubularFlowIGA) · [Benchmarks](https://github.com/EngineerEricXie/TubularFlowIGA/blob/main/docs/BENCHMARKS.md)
+[Repository](https://github.com/EngineerEricXie/TubularFlowIGA) · [Benchmarks](https://github.com/EngineerEricXie/TubularFlowIGA/blob/main/docs/validation/BENCHMARKS.md)
 
 ### [NeuronTransportIGA](https://github.com/EngineerEricXie/NeuronTransportIGA)
 
